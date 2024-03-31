@@ -1,10 +1,28 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 5vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.file-item {
+  /* margin-left: 25px; */
+  /* position: absolute; */
+}
+
+.folder-expanded {
+  display: inline-block;
+  width: 30vw;
+  background-color: rgb(219, 211, 211);
+}
+
+.expand {
+  /* position: relative;
+  margin-left: 25px; */
+  padding-left: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
